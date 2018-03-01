@@ -7,7 +7,7 @@ ax 2+bx+c = 0.
 
 
  Импортирование скрипта в проект
-```bash
+```python
 from quadratic_equation import get_roots
 ```
 Функция get_roots(a, b, c) принимает три аргумента - коэффициенты уравнения.
@@ -15,7 +15,7 @@ from quadratic_equation import get_roots
 
 Пример использования:
 
-```bash
+```python
 roots = get_roots(1,2,4)
 print(roots)
 ```
